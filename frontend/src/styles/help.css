@@ -1,0 +1,123 @@
+.help-page {
+  min-height: 100vh;
+  background: var(--bg-base, #0d1117);
+  color: var(--text-primary, #e6edf3);
+}
+
+.help-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-subtle, #30363d);
+}
+
+.help-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: inherit;
+  text-decoration: none;
+}
+
+.help-logo-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #00d4a8, #7c3aed);
+}
+
+.help-header-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.help-main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.help-title {
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
+}
+
+.help-lead {
+  color: var(--text-secondary, #8b949e);
+  line-height: 1.65;
+  margin: 0 0 2rem;
+  font-size: var(--text-base, 1rem);
+}
+
+.help-card {
+  background: var(--bg-card, #161b22);
+  border: 1px solid var(--border-subtle, #30363d);
+  border-radius: var(--radius-xl, 12px);
+  padding: 1.5rem 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.help-section-title {
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+}
+
+.help-steps {
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-secondary, #8b949e);
+}
+
+.help-steps li {
+  margin-bottom: 0.5rem;
+}
+
+.help-steps code {
+  font-size: 0.85em;
+  background: rgba(0, 212, 168, 0.08);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  color: var(--color-primary, #00d4a8);
+}
+
+.help-faq {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.help-faq-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-subtle, #30363d);
+}
+
+.help-faq-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.help-faq-q {
+  font-size: var(--text-sm, 0.9375rem);
+  margin: 0 0 0.35rem;
+  color: var(--text-primary, #e6edf3);
+}
+
+.help-faq-a {
+  margin: 0;
+  font-size: var(--text-sm, 0.875rem);
+  color: var(--text-secondary, #8b949e);
+  line-height: 1.6;
+}
+
+.help-footer-note {
+  margin-top: 2rem;
+  font-size: var(--text-sm, 0.875rem);
+}
+
+.help-footer-note a {
+  color: var(--color-primary, #00d4a8);
+}
